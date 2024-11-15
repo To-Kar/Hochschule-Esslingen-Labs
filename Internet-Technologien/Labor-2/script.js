@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const h1 = document.createElement("h1");
   h1.textContent = "Minesweeper";
   headerDiv.appendChild(h1);
-  headerDiv.appendChild(document.createTextNode("by Tom Karaqi"));
+  headerDiv.appendChild(document.createTextNode("by Tom K"));
   header.appendChild(headerDiv);
   content.appendChild(header);
 
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const footer = document.createElement("footer");
   const footerDiv = document.createElement("div");
   const footerP = document.createElement("p");
-  footerP.innerHTML = "&copy; 2024 by Tom Karaqi";
+  footerP.innerHTML = "&copy; 2024 by Tom K";
   footerDiv.appendChild(footerP);
   footer.appendChild(footerDiv);
   content.appendChild(footer);
