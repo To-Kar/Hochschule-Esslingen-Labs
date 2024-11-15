@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30px); /* Change column count as needed */
+    grid-gap: 2px;
+}
+
+.cell {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.input {
+    display: none;
+}
+
+.input + .content {
+    display: none;
+}
+
+.input:checked + .content {
+    display: block;
+    background-color: #ddd;
+}
+
+.content {
+    display: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.content:empty {
+    background-color: #bbb;
+}
